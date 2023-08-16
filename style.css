@@ -79,7 +79,7 @@ h6 {
 
     /* Spacing */
     --vertical-spacing: 1.5em;
-    --padding-around: 1em;
+    --padding-around: 1.2em;
 }
 
 body {
@@ -98,22 +98,23 @@ main {
 
 article {
     background-color: var(--card-background);
-    max-width: 375px;
+    max-width: 350px;
     border-radius: 1em;
     padding: var(--padding-around);
     display: grid;
-    grid-gap: 1.6em;
+    grid-gap: 0.5em;
 }
 
 .article-content{
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 0.8em;
     padding: 0.8em;
 }
 
 img {
     overflow: hidden;
     border-radius: 1em;
+    align-content: center;
 }
 
 h1 {
